@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="cform">
+      <div class="left">
+        <h1>Contact Form</h1>
+        <form action="/submit-form" method="POST">
+          <div>
+            <label for="name">Name:</label>
+            <br />
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <br />
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div>
+            <label for="textarea">Message:</label><br />
+            <input id="textarea" name="message" required></input>
+          </div>
+          <div>
+            <button>SUBMIT</button>
+          </div>
+        </form>
+      </div>
+      <div class="message">
+        <h1>I'll be more <br> than happy to <br>reach You out</h1>
+      </div>
+    </div>
+  </body>
+</html>
